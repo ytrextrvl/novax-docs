@@ -1,6 +1,30 @@
-# NOVAX TRAVEL - Documentation & Governance
+# NOVAX TRAVEL - Documentation Hub
 
-> مستودع التوثيق والحوكمة لمشروع NOVAX TRAVEL
+> المستودع المركزي للتوثيق
+
+---
+
+## الحالة الحالية
+
+| Phase | Status |
+|-------|--------|
+| Phase 0 | ✅ Complete |
+| Phase 1 | ✅ Complete |
+| Phase 2 | ✅ Complete |
+| Phase 3+ | ⏳ Pending |
+
+---
+
+## المستودعات
+
+| المستودع | الوصف | PR |
+|----------|-------|----|
+| [novax_backend](https://github.com/ytrextrvl/novax_backend) | Laravel API | [PR #1](https://github.com/ytrextrvl/novax_backend/pull/1) |
+| [novax-admin](https://github.com/ytrextrvl/novax-admin) | Admin Panel | [PR #1](https://github.com/ytrextrvl/novax-admin/pull/1) |
+| [novax-travel](https://github.com/ytrextrvl/novax-travel) | Customer Web | [PR #1](https://github.com/ytrextrvl/novax-travel/pull/1) |
+| [novax-mobile](https://github.com/ytrextrvl/novax-mobile) | Mobile App | [PR #1](https://github.com/ytrextrvl/novax-mobile/pull/1) |
+| [novax-infra](https://github.com/ytrextrvl/novax-infra) | Infrastructure | ✅ Created |
+| [.github](https://github.com/ytrextrvl/.github) | Org Profile | ✅ Created |
 
 ---
 
@@ -8,41 +32,20 @@
 
 ```
 novax-docs/
-├── 00_PROJECT/
-│   ├── IMPLEMENTATION_ADDENDUM.md  # ملحق التنفيذ
-│   ├── REPO_INVENTORY.md           # جرد المستودعات
-│   └── REPO_STRATEGY.md            # استراتيجية المستودعات
-├── 01_ARCH/
-│   ├── MISPLACED_FILES_MAP.md      # خريطة الملفات المُزاحة
-│   └── SAFE_SPLIT_PLAN.md          # خطة الفصل الآمن
-├── CHECKLIST.md                    # سجل الفجوات المركزي
-└── README.md                       # هذا الملف
+├── 00_PROJECT/     # Project governance
+├── 01_ARCH/        # Architecture docs
+├── 02_API/         # API documentation (Phase 3)
+├── 03_DEPLOY/      # Deployment guides (Phase 4)
+└── CHECKLIST.md    # Master checklist
 ```
 
 ---
 
-## المستودعات المرتبطة
+## الخطوات التالية
 
-| المستودع | الغرض |
-|----------|-------|
-| [novax_backend](https://github.com/ytrextrvl/novax_backend) | Laravel API |
-| [novax-admin](https://github.com/ytrextrvl/novax-admin) | Admin Panel |
-| [novax-travel](https://github.com/ytrextrvl/novax-travel) | Customer Web |
-| [novax-mobile](https://github.com/ytrextrvl/novax-mobile) | Mobile App |
-
----
-
-## الحالة الحالية
-
-- ✅ Phase 0: GitHub Pre-Flight (مكتمل)
-- ✅ Phase 1: Hard Deep Scan (مكتمل)
-- ⏳ Phase 2+: في انتظار الموافقة
-
----
-
-## المصدر
-
-هذا التوثيق مبني على: `NOVAX_TRAVEL_Project_Description_AR.docx`
+1. **Merge PRs** - راجع ودمج الـ PRs الأربعة
+2. **Phase 3** - Backend OpenAPI documentation
+3. **Phase 4** - Deployment & monitoring
 
 ---
 
