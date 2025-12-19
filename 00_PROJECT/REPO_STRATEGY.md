@@ -1,6 +1,6 @@
 # NOVAX TRAVEL - استراتيجية المستودعات (Repository Strategy)
 
-> **القرار:** Multi-Repo (NOT Monorepo)  
+> **القرار:** Multi-Repo (NOT Monorepo)
 > **التاريخ:** 2025-12-19
 
 ---

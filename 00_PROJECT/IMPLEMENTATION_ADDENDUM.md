@@ -1,7 +1,7 @@
 # NOVAX TRAVEL - ملحق التنفيذ (Implementation Addendum)
 
-> **المصدر:** NOVAX_TRAVEL_Project_Description_AR.docx  
-> **التاريخ:** 2025-12-19  
+> **المصدر:** NOVAX_TRAVEL_Project_Description_AR.docx
+> **التاريخ:** 2025-12-19
 > **الغرض:** تحويل وثيقة المشروع إلى Checklist تنفيذية قابلة للقياس
 
 ---
