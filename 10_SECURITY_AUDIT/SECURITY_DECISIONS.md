@@ -13,7 +13,7 @@
 - Secret Scanning على PRs (مجاني)
 - CodeQL إذا متاح (يحتاج Advanced Security)
 
-**السبب:** 
+**السبب:**
 - متكاملة مع GitHub
 - لا تحتاج إعداد خارجي
 - تعمل على PRs بدون حظر Push
