@@ -1,0 +1,5 @@
+* @novax-org/maintainers
+
+# Security-sensitive paths
+/security/ @novax-org/security
+/.github/ @novax-org/devops

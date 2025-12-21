@@ -1,0 +1,72 @@
+
+openapi: 3.0.3
+info:
+  title: NOVAX TRAVEL API
+  version: 1.0.0
+servers:
+  - url: https://api.novaxtravel.com
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: OK
+  /v1/auth/login:
+    post:
+      summary: Login (credentials)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+              required: [username, password]
+      responses:
+        '200':
+          description: Login success
+  /v1/bookings:
+    post:
+      summary: Create booking (idempotent)
+      parameters:
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Booking created
+  /v1/payments:
+    post:
+      summary: Create payment (idempotent)
+      parameters:
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Payment created
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

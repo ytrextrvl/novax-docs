@@ -1,0 +1,11 @@
+
+# Example CODEOWNERS (adjust GitHub usernames/teams)
+*       @novax-org/maintainers
+
+# Security-sensitive
+/security/   @novax-org/security
+/docs/security/ @novax-org/security
+
+# Infrastructure
+/infrastructure/ @novax-org/devops
+/.github/ @novax-org/devops
